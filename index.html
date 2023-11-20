@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Jessica Hoyos">
+        <meta name="description" content="My first website">
+        <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+        <title>My first website</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <section class="center">
+            <h1 id="titulo1">MAKEUP AND SKIN CARE FOR YOU</h1>
+        </section>
+        <p id="parrafo1"> Hoy en dia las personas han adoptado muchas palabras del idioma Inglés como parte de su vida cotidiana para los hispanohablantes, de allí se deriva que MAKEUP (maquillaje) y SKINCARE (cuidado de la piel) también sean palabras que podemos escuchar muy comunmente en la actualidad.</p>
+        <p id="parrafo2">Primero que todo conozcamos cuales son los conceptos:</p>
+        <h2 id="sub-makeup">¿Que es el makeup?</h2>
+        <p id="parrafo3">Se entiende por <i>makeup</i> ó <i>maquillaje</i> , a la técnica destinada a realzar los rasgos faciales y simultáneamente disimular los defectos para conseguir mayor armonía.</p>
+        <div class="contededor">
+            <img id="img1" src="Imgs/jk.jpeg" alt="foto de maquillaje" width="460" height="360"/> 
+            <img id= "img2" src="Imgs/jk (2).jpeg" alt="foto de maquillaje" width="510" height="460"/> 
+        </div>
+        <br/>
+        <a id="linkinsta" href="https://instagram.com/jeka_makeup09?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"> Visita nuestro perfil en instagram</a>
+        <br/>
+        <a href="#abajo">Abajo</a>
+        <h2>Historia del Makeup</h2>
+        <p id="parrafo4">La historia del maquillaje es milenaria, su aparición se remonta a la Prehistoria,donde los productos de los que se disponía para maquillar el cuerpo se limitaban, prácticamente, a la arcilla, tierras de pigmentos colorantes y productos elaborados
+        rudimentariamente a partir de grasas animales. De la interpretación de las pinturas rupestres, deducen que las mujeres del paleolítico ya usaban mejunjes para colorear de marrón rojizo diferentes partes del cuerpo. Los cazadores y danzantes en la edad
+        de bronce se teñían partes de su cuerpo de rojo y negro, embadurnaban su pelo con arcilla. En los contenedores de huesos hallados, se han encontrado rastros de pastas coloreadas hechas de grasas y óxidos de hierro o magnesio que, se piensa, pudieron
+        ser utilizadas para proteger el cuerpo de los rayos del sol, en aquel tiempo prehistórico.</p>
+        <br/>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Z_AbEKLMpE4?si=y7L0Wc7QQW7Ok6du" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <p id="parrafo5">Existen diferentes tipos de maquillaje, a continuación mencionaremos algunos: </p>
+        <table>
+		<thead>
+			<tr>
+                <th>Nombre</th>
+				<th>Definción</th>
+            </tr>
+        </thead>
+        <tbody>
+			<tr>
+				<td>Maquillaje Social</td>
+				<td>Se le llama social porque lo ideal es lucirlo para eventos sociales como grados, matrimonios, cumpleaños, 
+                tiene como objetivo destacar nuestra belleza y facciones logrando un equilibrio con el look que vayamos a usar.</td>
+			</tr>
+			<tr>
+				<td>Maquillaje Artístico</td>
+				<td>Generalmente se utiliza para representaciones teatrales, eventos especiales, fiestas y carnavales. 
+                Este tipo de maquillaje tan pintoresco, nos permite jugar con las infinitas posibilidades que nos dan los colores y las formas.</td>
+			</tr>
+            <tr>
+				<td>Maquillaje Editorial</td>
+				<td>Es todo aquel maquillaje que se utiliza en las publicaciones de moda y belleza, y es parte fundamental de las tendencias, 
+                es por esto que es tan difícil y vertiginoso seguirle el ritmo.</td>
+			</tr>
+		</tbody>
+		</table>
+
+        <h2 id="sub-skincare">¿Que es skincare?</h2>
+        <p id="parrafo6">El <i>skincare</i> ó <i>cuidado de la piel</i> son un conjunto de pasos o las rutinas que seguimos y los productos que usamos para lucir una piel fresca y sana.</p>
+        <div class="contededor2">
+            <img id= "img3" src="Imgs/descarga.jpg" alt="foto de skincare"/>
+            <img id= "img4" src="Imgs/images.jpg" alt="foto de skincare"/>
+        </div>
+        <br/>
+        <p id="parrafo7"><b>Pasos para una rutina de skincare</b></p>
+        <ol>
+            <li>Agua micelar</li>
+            <li>Jabón facial</li>
+            <li>Mascarilla</li>
+            <li>Tónico</li>
+            <li>Suero de vitamina C</li>
+            <li>Suero de niacinamida</li>
+            <li>Suero hidratante con ácido hialurónico</li>
+            <li>Contorno de ojos</li>
+            <li>Crema hidratante</li>
+            <li>Protector solar</li>
+        </ol>
+        <a href="https://www.youtube.com/watch?v=AEoEhJx7Q8w">Clic para ver video del paso a paso</a>
+        <br/>
+        <p id="parrafo8"><b>Si deseas obtener mas información, puedes llenar el siguiente formulario:</b></p>
+        <form action="#" method="POST">
+        <p>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" size="50" maxlength="10" placeholder="Ingresa tu nombre" required/>
+        </p>
+        <p>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" size="50" maxlength="10" placeholder="Ingresa tu apellido" required/>
+        </p>
+        <p>
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo"/> 
+        </p>
+        <p>
+            <label for="observaciones">Observaciones:</label>
+            <br>
+            <textarea id="observaciones" name="observaciones" cols="50" rows="5"/></textarea> 
+        </p>
+        <p>
+            <button type="submit">Enviar</button> 
+        </p> 
+        </form>
+        <p id="abajo"><b>Para ver mas imágenes sobre nuestros maquillajes, puedes ingresar en el link de Instagram que se encuentra arriba</b></p>
+        <a href="#linkinsta">Arriba</a>	
+	</body>
+    <footer>
+        <p id="parrafo9">Made by Jessica Hoyos</p>
+    </footer>
+</html>
